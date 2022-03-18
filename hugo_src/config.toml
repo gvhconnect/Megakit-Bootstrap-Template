@@ -1,3 +1,89 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 4
+  [[menu.main]]
+    identifier = "pricing"
+    name = "Pricing"
+    url = "/pricing/"
+    weight = 5
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 6
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+  [[menu.company]]
+    identifier = "terms"
+    name = "Terms & Conditions"
+    url = "/"
+    weight = 1
+
+  [[menu.company]]
+    identifier = "privacy"
+    name = "Privacy Policy"
+    url = "/"
+    weight = 2
+
+  [[menu.company]]
+    identifier = "support"
+    name = "Support"
+    url = "/"
+    weight = 3
+
+  [[menu.company]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/"
+    weight = 4
+
+  [[menu.quick]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.quick]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 2
+    
+  [[menu.quick]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.quick]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
