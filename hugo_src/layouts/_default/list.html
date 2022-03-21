@@ -1,3 +1,25 @@
 {{ define "main" }}
-  {{ .Content }}
+  {{ with .Params.slider }}
+    {{ partial "bookshop" (slice "slider" .) }}
+  {{ end }}
+
+  {{ with .Params.intro }}
+    {{ partial "bookshop" (slice "intro" .) }}
+  {{ end }}
+
+  {{ with .Params.about }}
+    {{ partial "bookshop" (slice "about" .) }}
+  {{ end }}
+
+  {{ with .Params.counter }}
+    {{ partial "bookshop" (slice "counter" .) }}
+  {{ end }}
+
+  {{ with .Params.services }}
+    {{ partial "bookshop" (slice "services" .) }}
+  {{ end }}
+
+  {{ with .Params.cta }}
+    {{ partial "bookshop" (slice "cta" .) }}
+  {{ end }}
 {{ end }}
